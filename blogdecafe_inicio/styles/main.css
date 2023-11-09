@@ -196,7 +196,7 @@ img {
 
 /*Sobre Nosotros*/
 @media (min-width: 768px) {
-    /* .about-us {
+  /* .about-us {
         display: flex;
         justify-content: space-between;
     }
@@ -206,10 +206,35 @@ img {
     .about-us__image {
         flex: 0 0 calc(50% - 1rem);
     } */
-    .about-us {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-    }
+  .about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
 }
 
+/*Course*/
+.course {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--dark);
+}
+@media (min-width: 768px) {
+  .course {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
+}
+
+.course:last-of-type {
+  border: none;
+}
+
+.course__info {
+  font-weight: normal;
+}
+
+.course__label,
+.course__info {
+  font-size: 2rem;
+}
