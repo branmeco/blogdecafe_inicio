@@ -4,14 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlogDeCafe</title>
+    <!-- preload -->
+    <link rel="preload" href="styles/normalize.css" as="style" />
     <link rel="stylesheet" href="styles/normalize.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="preload" href="styles/main.css" as="style" />
     <link rel="stylesheet" href="styles/main.css" />
+
+    <link rel="preload" href="img/blog1.jpg" as="image">
   </head>
   <body>
     <header class="header">
@@ -126,18 +138,20 @@
       </aside>
     </div>
     <footer class="footer">
-        <div class="container">
-            <div class="rod">
-                <a href="logo" href="index.html">
-                    <h1 class="logo__name no-margin center-text logo">Blog<span>DeCafe</span></h1>
-                </a>
-                <nav class="navegation">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="cursos.html">Cursos</a>
-                    <a href="contacto.html">Contacto</a>
-                </nav>
-            </div>
+      <div class="container">
+        <div class="rod">
+          <a href="logo" href="index.html">
+            <h1 class="logo__name no-margin center-text logo">
+              Blog<span>DeCafe</span>
+            </h1>
+          </a>
+          <nav class="navegation">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="contacto.html">Contacto</a>
+          </nav>
         </div>
+      </div>
     </footer>
   </body>
 </html>
